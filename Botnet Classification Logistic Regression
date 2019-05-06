@@ -26,8 +26,6 @@ labelencoder_X2=LabelEncoder()
 X['SrcAddr']=labelencoder_X2.fit_transform(X['SrcAddr'])
 
 
-"""labelencoder_X3=LabelEncoder()
-X['DstAddr']=labelencoder_X1.fit_transform(X['DstAddr'])"""
 
 
 labelencoder_Y=LabelEncoder()
